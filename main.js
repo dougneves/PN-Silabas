@@ -93,6 +93,7 @@ window.onload = () => {
     const div = document.createElement("div");
     botoes.forEach((text,i) => {
       const b = document.createElement("button");
+      b.className = "w3-btn w3-btn-block w3-indigo w3-padding-xxlarge";
       b.value = text;
       b.appendChild(document.createTextNode(text.toUpperCase()));
       div.appendChild(b);
